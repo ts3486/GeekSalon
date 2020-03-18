@@ -1,0 +1,78 @@
+h1 {
+	width: 1000px;
+  	padding-top: 50px;
+  	margin-bottom: 0px;
+  	margin-left: auto;
+  	margin-right: auto;
+	border-bottom: 3px solid black;
+	text-align: center;
+	align-self: center;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+h2 {
+	width: 1000px;
+  	padding: 5px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	align-self: center;
+	font-family: monospace;
+	font-size: 40px;
+}
+
+
+.box {
+	width: 1000px;
+  	border: 0px solid black;
+  	padding: 50px;
+ 	margin: auto;
+ 	margin-top: 50px;
+	text-align: center;
+	font-family: ;
+	font-size: 40px;
+	display: grid;
+  grid-template-columns: 500px 500px;
+  align-items: start;
+  justify-content: space-between;
+  font-family: monospace;
+}
+
+#one {
+	border: 5px solid purple;
+	width: 400px;
+  	padding: 25px;
+  	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 25px;
+}
+
+#two {
+	border: 5px solid blue;
+	width: 400px;
+  	padding: 25px;
+  	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 25px;
+}
+
+#three {
+	border: 5px solid red;
+	width: 400px;
+  	padding: 25px;
+	margin: auto;
+	border-radius: 25px;
+}
+
+#four {
+	border: 5px solid yellow;
+	width: 400px;
+  	padding: 25px;
+	margin: auto;
+	border-radius: 25px;
+}
+
+
