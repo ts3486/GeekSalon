@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <link rel="stylesheet" href="passion.css">
 
-	<title>What`s your passion?</title>
+	<title>Passion</title>
 </head>
+
 <body>
+
+	<script src="passion.js"></script>
+
 	<h1>Q.1</h1>
-	<h2>What`s your passion?</h2>
+	<h2>What`s my passion?</h2> 
+
+	<h3 id="answer"></h3>
 
 	<div class="box">
-	<div id="one"> 1. Music </div>
+		<div id="one" onclick="Answer()"> 1. Music </div>
 
-	<div id="two"> 2. Math </div>  
+		<div id="two" onclick="WrongAnswer()"> 2. Math </div>  
 
-	<div id="three"> 3. Sports </div> 
+		<div id="three" onclick="WrongAnswer()"> 3. Fishing </div> 
 
-	<div id="four"> 4. Computers </div> 
-</div>
-
+		<div id="four" onclick="WrongAnswer()"> 4. Computers </div> 
+	</div>
 
 </body>
 </html>
