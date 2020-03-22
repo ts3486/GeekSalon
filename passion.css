@@ -24,6 +24,19 @@ h2 {
 	font-size: 40px;
 }
 
+h3 {
+	width: 1000px;
+  	padding: 5px;
+  	margin-top: 50px;
+  	margin-bottom: 0px;
+  	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	align-self: center;
+	font-family: monospace;
+	font-size: 40px;
+}
+
 
 .box {
 	width: 1000px;
@@ -75,4 +88,35 @@ h2 {
 	border-radius: 25px;
 }
 
+#button {
+	width: 400px;
+  	padding: 25px;
+	margin: auto;
+	margin-top: 0px;
+	border-radius: 25px;
+	text-align: center;
+}
 
+button {
+	font-size: 40px;
+	border-radius: 5px;
+	border: 6px solid black;
+	padding: 10px;
+
+}
+
+ #one:hover{
+  background-color: #FFF933;
+}
+
+ #two:hover{
+  background-color: #FFF933;
+}
+
+ #three:hover{
+  background-color: #FFF933;
+}
+
+ #four:hover{
+  background-color: #FFF933;
+}
